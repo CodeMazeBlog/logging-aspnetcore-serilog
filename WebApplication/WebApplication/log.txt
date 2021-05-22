@@ -1,0 +1,232 @@
+2021-04-15 14:47:59.744 +10:00 [INF] Starting web host
+2021-04-15 14:48:00.380 +10:00 [INF] User profile is available. Using 'C:\Users\Ryan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-04-15 14:48:03.764 +10:00 [INF] Now listening on: https://localhost:5001
+2021-04-15 14:48:03.768 +10:00 [INF] Now listening on: http://localhost:5000
+2021-04-15 14:48:03.769 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-15 14:48:03.770 +10:00 [INF] Hosting environment: Development
+2021-04-15 14:48:03.771 +10:00 [INF] Content root path: C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication
+2021-04-15 14:48:04.373 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-04-15 14:48:04.447 +10:00 [INF] Executing endpoint '/Index'
+2021-04-15 14:48:04.512 +10:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-04-15 14:48:04.532 +10:00 [INF] Executing handler method WebApplication.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-04-15 14:48:04.546 +10:00 [INF] This is a log message. This is an object: {"name":"foo"}
+2021-04-15 14:48:04.553 +10:00 [INF] Executed handler method OnGet, returned result .
+2021-04-15 14:48:04.557 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-04-15 14:48:04.559 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-04-15 14:48:04.724 +10:00 [INF] Executed page /Index in 203.9799ms
+2021-04-15 14:48:04.727 +10:00 [INF] Executed endpoint '/Index'
+2021-04-15 14:48:04.737 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 373.0244ms
+2021-04-15 14:48:04.798 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-04-15 14:48:04.798 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - -
+2021-04-15 14:48:04.798 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - -
+2021-04-15 14:48:04.798 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - -
+2021-04-15 14:48:04.799 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2021-04-15 14:48:04.826 +10:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication\wwwroot\js\site.js'
+2021-04-15 14:48:04.848 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 49.3776ms
+2021-04-15 14:48:04.856 +10:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication\wwwroot\css\site.css'
+2021-04-15 14:48:04.874 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - - - 200 1417 text/css 75.9641ms
+2021-04-15 14:48:04.884 +10:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-04-15 14:48:04.892 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 93.9676ms
+2021-04-15 14:48:04.925 +10:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-04-15 14:48:04.928 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 129.6190ms
+2021-04-15 14:48:04.932 +10:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-04-15 14:48:04.935 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 137.1976ms
+2021-04-15 14:48:06.814 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Privacy - -
+2021-04-15 14:48:06.820 +10:00 [INF] Executing endpoint '/Privacy'
+2021-04-15 14:48:06.825 +10:00 [INF] Route matched with {page = "/Privacy"}. Executing page /Privacy
+2021-04-15 14:48:06.826 +10:00 [INF] Executing handler method WebApplication.Pages.PrivacyModel.OnGet - ModelState is "Valid"
+2021-04-15 14:48:06.829 +10:00 [INF] Executed handler method OnGet, returned result .
+2021-04-15 14:48:06.833 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-04-15 14:48:06.839 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-04-15 14:48:06.852 +10:00 [INF] Executed page /Privacy in 26.0187ms
+2021-04-15 14:48:06.861 +10:00 [INF] Executed endpoint '/Privacy'
+2021-04-15 14:48:06.866 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Privacy - - - 200 - text/html;+charset=utf-8 52.4844ms
+2021-04-15 14:52:24.789 +10:00 [INF] Application is shutting down...
+2021-04-15 16:54:49.953 +10:00 [INF] Starting web host
+2021-04-15 16:54:50.309 +10:00 [INF] User profile is available. Using 'C:\Users\Ryan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-04-15 16:54:50.630 +10:00 [INF] Now listening on: https://localhost:5001
+2021-04-15 16:54:50.633 +10:00 [INF] Now listening on: http://localhost:5000
+2021-04-15 16:54:50.635 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-15 16:54:50.636 +10:00 [INF] Hosting environment: Development
+2021-04-15 16:54:50.637 +10:00 [INF] Content root path: C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication
+2021-04-15 16:54:51.311 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-04-15 16:54:51.381 +10:00 [INF] Executing endpoint '/Index'
+2021-04-15 16:54:51.434 +10:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-04-15 16:54:51.449 +10:00 [INF] Executing handler method WebApplication.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-04-15 16:54:51.457 +10:00 [INF] This is a log message. This is an object: {"name":"foo"}
+2021-04-15 16:54:51.468 +10:00 [INF] Executed handler method OnGet, returned result .
+2021-04-15 16:54:51.472 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-04-15 16:54:51.476 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-04-15 16:54:51.582 +10:00 [INF] Executed page /Index in 140.7504ms
+2021-04-15 16:54:51.584 +10:00 [INF] Executed endpoint '/Index'
+2021-04-15 16:54:51.590 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 282.6394ms
+2021-04-15 16:54:53.562 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Privacy - -
+2021-04-15 16:54:53.567 +10:00 [INF] Executing endpoint '/Privacy'
+2021-04-15 16:54:53.571 +10:00 [INF] Route matched with {page = "/Privacy"}. Executing page /Privacy
+2021-04-15 16:54:53.575 +10:00 [INF] Executing handler method WebApplication.Pages.PrivacyModel.OnGet - ModelState is "Valid"
+2021-04-15 16:54:53.578 +10:00 [INF] Executed handler method OnGet, returned result .
+2021-04-15 16:54:53.580 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-04-15 16:54:53.582 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-04-15 16:54:53.593 +10:00 [INF] Executed page /Privacy in 19.3374ms
+2021-04-15 16:54:53.596 +10:00 [INF] Executed endpoint '/Privacy'
+2021-04-15 16:54:53.598 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Privacy - - - 200 - text/html;+charset=utf-8 35.4905ms
+2021-04-15 16:56:05.015 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-04-15 16:56:05.024 +10:00 [INF] Executing endpoint '/Index'
+2021-04-15 16:56:05.028 +10:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-04-15 16:56:05.033 +10:00 [INF] Executing handler method WebApplication.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-04-15 16:56:05.036 +10:00 [INF] This is a log message. This is an object: {"name":"foo"}
+2021-04-15 16:56:05.040 +10:00 [INF] Executed handler method OnGet, returned result .
+2021-04-15 16:56:05.042 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-04-15 16:56:05.043 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-04-15 16:56:05.049 +10:00 [INF] Executed page /Index in 16.3743ms
+2021-04-15 16:56:05.051 +10:00 [INF] Executed endpoint '/Index'
+2021-04-15 16:56:05.054 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 38.3762ms
+2021-04-15 16:56:06.846 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Privacy - -
+2021-04-15 16:56:06.849 +10:00 [INF] Executing endpoint '/Privacy'
+2021-04-15 16:56:06.853 +10:00 [INF] Route matched with {page = "/Privacy"}. Executing page /Privacy
+2021-04-15 16:56:06.856 +10:00 [INF] Executing handler method WebApplication.Pages.PrivacyModel.OnGet - ModelState is "Valid"
+2021-04-15 16:56:06.858 +10:00 [INF] Executed handler method OnGet, returned result .
+2021-04-15 16:56:06.859 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-04-15 16:56:06.860 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-04-15 16:56:06.862 +10:00 [INF] Executed page /Privacy in 6.1068ms
+2021-04-15 16:56:06.864 +10:00 [INF] Executed endpoint '/Privacy'
+2021-04-15 16:56:06.868 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Privacy - - - 200 - text/html;+charset=utf-8 21.6839ms
+2021-04-15 16:56:07.102 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Privacy - -
+2021-04-15 16:56:07.105 +10:00 [INF] Executing endpoint '/Privacy'
+2021-04-15 16:56:07.106 +10:00 [INF] Route matched with {page = "/Privacy"}. Executing page /Privacy
+2021-04-15 16:56:07.108 +10:00 [INF] Executing handler method WebApplication.Pages.PrivacyModel.OnGet - ModelState is "Valid"
+2021-04-15 16:56:07.109 +10:00 [INF] Executed handler method OnGet, returned result .
+2021-04-15 16:56:07.111 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-04-15 16:56:07.112 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-04-15 16:56:07.116 +10:00 [INF] Executed page /Privacy in 8.3062ms
+2021-04-15 16:56:07.122 +10:00 [INF] Executed endpoint '/Privacy'
+2021-04-15 16:56:07.125 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Privacy - - - 200 - text/html;+charset=utf-8 22.1130ms
+2021-04-15 16:56:07.579 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-04-15 16:56:07.582 +10:00 [INF] Executing endpoint '/Index'
+2021-04-15 16:56:07.586 +10:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-04-15 16:56:07.590 +10:00 [INF] Executing handler method WebApplication.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-04-15 16:56:07.593 +10:00 [INF] This is a log message. This is an object: {"name":"foo"}
+2021-04-15 16:56:07.596 +10:00 [INF] Executed handler method OnGet, returned result .
+2021-04-15 16:56:07.599 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-04-15 16:56:07.609 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-04-15 16:56:07.613 +10:00 [INF] Executed page /Index in 23.5238ms
+2021-04-15 16:56:07.616 +10:00 [INF] Executed endpoint '/Index'
+2021-04-15 16:56:07.619 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 39.4293ms
+2021-04-15 16:58:00.788 +10:00 [INF] Starting web host
+2021-04-15 16:58:00.999 +10:00 [INF] User profile is available. Using 'C:\Users\Ryan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-04-15 16:58:01.295 +10:00 [INF] Now listening on: https://localhost:5001
+2021-04-15 16:58:01.297 +10:00 [INF] Now listening on: http://localhost:5000
+2021-04-15 16:58:01.299 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-15 16:58:01.300 +10:00 [INF] Hosting environment: Development
+2021-04-15 16:58:01.301 +10:00 [INF] Content root path: C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication
+2021-04-15 16:58:01.927 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-04-15 16:58:02.033 +10:00 [INF] Executing endpoint '/Index'
+2021-04-15 16:58:02.109 +10:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-04-15 16:58:02.120 +10:00 [INF] Executing handler method WebApplication.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-04-15 16:58:02.129 +10:00 [INF] This is a log message. This is an object: {"name":"foo"}
+2021-04-15 16:58:02.134 +10:00 [INF] Executed handler method OnGet, returned result .
+2021-04-15 16:58:02.142 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-04-15 16:58:02.144 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-04-15 16:58:02.246 +10:00 [INF] Executed page /Index in 131.6224ms
+2021-04-15 16:58:02.250 +10:00 [INF] Executed endpoint '/Index'
+2021-04-15 16:58:02.258 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 332.8850ms
+2021-04-15 16:58:03.614 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Privacy - -
+2021-04-15 16:58:03.620 +10:00 [INF] Executing endpoint '/Privacy'
+2021-04-15 16:58:03.626 +10:00 [INF] Route matched with {page = "/Privacy"}. Executing page /Privacy
+2021-04-15 16:58:03.628 +10:00 [INF] Executing handler method WebApplication.Pages.PrivacyModel.OnGet - ModelState is "Valid"
+2021-04-15 16:58:03.630 +10:00 [INF] Executed handler method OnGet, returned result .
+2021-04-15 16:58:03.635 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-04-15 16:58:03.638 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-04-15 16:58:03.643 +10:00 [INF] Executed page /Privacy in 15.1377ms
+2021-04-15 16:58:03.646 +10:00 [INF] Executed endpoint '/Privacy'
+2021-04-15 16:58:03.650 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Privacy - - - 200 - text/html;+charset=utf-8 35.6451ms
+2021-04-15 16:58:04.115 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-04-15 16:58:04.119 +10:00 [INF] Executing endpoint '/Index'
+2021-04-15 16:58:04.121 +10:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-04-15 16:58:04.123 +10:00 [INF] Executing handler method WebApplication.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-04-15 16:58:04.125 +10:00 [INF] This is a log message. This is an object: {"name":"foo"}
+2021-04-15 16:58:04.126 +10:00 [INF] Executed handler method OnGet, returned result .
+2021-04-15 16:58:04.128 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-04-15 16:58:04.129 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-04-15 16:58:04.140 +10:00 [INF] Executed page /Index in 16.5058ms
+2021-04-15 16:58:04.142 +10:00 [INF] Executed endpoint '/Index'
+2021-04-15 16:58:04.144 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 29.0490ms
+2021-04-15 17:07:14.895 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-04-15 17:07:14.897 +10:00 [INF] Executing endpoint '/Index'
+2021-04-15 17:07:14.899 +10:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-04-15 17:07:14.901 +10:00 [INF] Executing handler method WebApplication.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-04-15 17:07:14.903 +10:00 [INF] This is a log message. This is an object: {"name":"foo"}
+2021-04-15 17:07:14.905 +10:00 [INF] Executed handler method OnGet, returned result .
+2021-04-15 17:07:14.907 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-04-15 17:07:14.908 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-04-15 17:07:14.911 +10:00 [INF] Executed page /Index in 9.6234ms
+2021-04-15 17:07:14.914 +10:00 [INF] Executed endpoint '/Index'
+2021-04-15 17:07:14.926 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 31.3713ms
+2021-04-15 17:11:49.691 +10:00 [INF] Starting web host
+2021-04-15 17:11:49.926 +10:00 [INF] User profile is available. Using 'C:\Users\Ryan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-04-15 17:11:50.294 +10:00 [INF] Now listening on: https://localhost:5001
+2021-04-15 17:11:50.297 +10:00 [INF] Now listening on: http://localhost:5000
+2021-04-15 17:11:50.299 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-15 17:11:50.299 +10:00 [INF] Hosting environment: Development
+2021-04-15 17:11:50.300 +10:00 [INF] Content root path: C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication
+2021-04-15 17:11:50.803 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-04-15 17:11:50.898 +10:00 [INF] Executing endpoint '/Index'
+2021-04-15 17:11:50.955 +10:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-04-15 17:11:50.972 +10:00 [INF] Executing handler method WebApplication.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-04-15 17:11:50.985 +10:00 [INF] This is a log message. This is an object: {"name":"foo"}
+2021-04-15 17:11:50.990 +10:00 [INF] Executed handler method OnGet, returned result .
+2021-04-15 17:11:50.998 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-04-15 17:11:51.002 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-04-15 17:11:51.143 +10:00 [INF] Executed page /Index in 181.0976ms
+2021-04-15 17:11:51.149 +10:00 [INF] Executed endpoint '/Index'
+2021-04-15 17:11:51.155 +10:00 [INF] HTTP GET / responded 200 in 336.5274 ms
+2021-04-15 17:11:51.164 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 369.2796ms
+2021-04-15 17:12:23.717 +10:00 [INF] Starting web host
+2021-04-15 17:12:24.220 +10:00 [INF] Now listening on: https://localhost:5001
+2021-04-15 17:12:24.225 +10:00 [INF] Now listening on: http://localhost:5000
+2021-04-15 17:12:24.226 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-15 17:12:24.226 +10:00 [INF] Hosting environment: Development
+2021-04-15 17:12:24.228 +10:00 [INF] Content root path: C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication
+2021-04-15 17:12:24.922 +10:00 [INF] This is a log message. This is an object: {"name":"foo"}
+2021-04-15 17:12:25.051 +10:00 [INF] HTTP GET / responded 200 in 263.6865 ms
+2021-04-15 17:13:11.448 +10:00 [INF] This is a log message. This is an object: {"name":"foo"}
+2021-04-15 17:13:11.455 +10:00 [INF] HTTP GET / responded 200 in 8.8314 ms
+2021-04-15 17:13:32.704 +10:00 [INF] This is a log message. This is an object: {"name":"foo"}
+2021-04-15 17:13:32.709 +10:00 [INF] HTTP GET / responded 200 in 5.0462 ms
+2021-04-15 17:19:15.258 +10:00 [INF] Application is shutting down...
+2021-04-21 08:24:06.911 +02:00 [INF] Starting web host
+2021-04-21 08:24:07.862 +02:00 [INF] Now listening on: https://localhost:5001
+2021-04-21 08:24:07.866 +02:00 [INF] Now listening on: http://localhost:5000
+2021-04-21 08:24:07.867 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-21 08:24:07.868 +02:00 [INF] Hosting environment: Development
+2021-04-21 08:24:07.869 +02:00 [INF] Content root path: D:\Projects\_Source Codes for the Articles\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication
+2021-04-21 08:24:08.607 +02:00 [INF] This is a log message. This is an object: {"name":"foo"}
+2021-04-21 08:24:08.728 +02:00 [INF] HTTP GET / responded 200 in 230.1952 ms
+2021-04-21 08:24:08.782 +02:00 [INF] HTTP GET /js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 responded 200 in 7.4549 ms
+2021-04-21 08:24:08.800 +02:00 [INF] HTTP GET /css/site.css responded 200 in 25.5910 ms
+2021-04-21 08:24:08.819 +02:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 44.5169 ms
+2021-04-21 08:24:08.854 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 79.6972 ms
+2021-04-21 08:24:08.867 +02:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 92.1591 ms
+2021-04-21 08:25:21.766 +02:00 [INF] Starting web host
+2021-04-21 08:25:22.243 +02:00 [INF] Now listening on: https://localhost:5001
+2021-04-21 08:25:22.248 +02:00 [INF] Now listening on: http://localhost:5000
+2021-04-21 08:25:22.249 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-21 08:25:22.249 +02:00 [INF] Hosting environment: Development
+2021-04-21 08:25:22.250 +02:00 [INF] Content root path: D:\Projects\_Source Codes for the Articles\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication
+2021-04-21 08:25:28.152 +02:00 [INF] Application is shutting down...
+2021-04-21 08:25:43.750 +02:00 [INF] Starting web host
+2021-04-21 08:25:45.039 +02:00 [INF] Now listening on: https://localhost:5001
+2021-04-21 08:25:45.045 +02:00 [INF] Now listening on: http://localhost:5000
+2021-04-21 08:25:45.046 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-21 08:25:45.047 +02:00 [INF] Hosting environment: Development
+2021-04-21 08:25:45.048 +02:00 [INF] Content root path: D:\Projects\_Source Codes for the Articles\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication
+2021-04-21 08:25:46.134 +02:00 [INF] This is a log message. This is an object: {"name":"foo"}
+2021-04-21 08:25:46.285 +02:00 [INF] HTTP GET / responded 200 in 296.9007 ms
+2021-04-21 08:26:59.344 +02:00 [INF] Starting web host
+2021-04-21 08:26:59.817 +02:00 [INF] Now listening on: https://localhost:5001
+2021-04-21 08:26:59.821 +02:00 [INF] Now listening on: http://localhost:5000
+2021-04-21 08:26:59.822 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-21 08:26:59.822 +02:00 [INF] Hosting environment: Development
+2021-04-21 08:26:59.823 +02:00 [INF] Content root path: D:\Projects\_Source Codes for the Articles\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication
+2021-04-21 08:27:00.718 +02:00 [INF] This is a log message. This is an object: {"name":"foo"}
+2021-04-21 08:27:00.826 +02:00 [INF] HTTP GET / responded 200 in 211.8673 ms
