@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Serilog;
 using Serilog.Events;
+using Serilog.Formatting.Json;
 using Serilog.Sinks.MSSqlServer;
 using System;
 
@@ -12,9 +13,9 @@ namespace WebApplication
         public static void Main(string[] args)
         {
             Log.Logger = new LoggerConfiguration()
-                .WriteTo.Console()
+                .WriteTo.Console(new JsonFormatter())
                 .WriteTo.Seq("http://localhost:5341")
-                .WriteTo.File("log.txt")
+                .WriteTo.File(new JsonFormatter(), "log.txt")
                 .WriteTo.MSSqlServer("Data Source=.;Initial Catalog=CompanyEmployee;Integrated Security=SSPI",
                                      new MSSqlServerSinkOptions
                                      {

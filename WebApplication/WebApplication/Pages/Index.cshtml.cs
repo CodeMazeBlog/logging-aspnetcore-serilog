@@ -15,7 +15,7 @@ namespace WebApplication.Pages
 
         public void OnGet()
         {
-            _logger.LogInformation("This is a log message. This is an object: {@model}", new { name = "foo" });
+            _logger.LogInformation("This is a log message. This is an object: {User}", new { name = "John Doe" });
         }
     }
 }
